@@ -20,7 +20,7 @@ public class SpinComponenet : MonoBehaviour
         myTransform.Rotate(.1f, 0f, 0f);
         if (!printedMessage)
         {
-            Debug.Log("Hello from Update");
+            Debug.Log("Hello from Update!");
             printedMessage = true;
         }
 
